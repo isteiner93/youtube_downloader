@@ -26,7 +26,7 @@ To install the required Python libraries, run:
 bash
 ```pip install -r requirements.txt```
 
-### Configuration
+## Configuration
 Create a ```.env``` file in the root directory of the project with the following environment variables:
 
 ```
@@ -37,7 +37,7 @@ AWS_ACCESS_KEY_ID=your_aws_access_key_id
 AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
 ```
 
-###Usage
+## Usage
 Ensure all dependencies are installed and environment variables are set.
 
 Run the script:
@@ -45,6 +45,6 @@ Run the script:
 ```python script_name.py```
 Follow the prompts to enter the YouTube video URL and the user email.
 
-### Example
+## Example
 Enter the URL of the YouTube video: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 Enter the user's email address: user@example.com
